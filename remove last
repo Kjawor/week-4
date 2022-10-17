@@ -1,0 +1,7 @@
+def string(msg):
+    if len(msg) > 1:
+        print(msg[:-1])
+    else:
+        print("error")
+
+string("yellow")
