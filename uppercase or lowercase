@@ -1,0 +1,5 @@
+def check(msg):
+    print("capital letters:", sum(1 for c in msg if c.isupper()))
+    print("lower case letters:", sum(1 for c in msg if c.islower()))
+
+print(check("Yes"))
