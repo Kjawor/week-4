@@ -1,0 +1,7 @@
+a = int((input("enter temp")))
+
+def tempc(a):
+    print (str(a) + "C")
+    b = (a* 1.8) + 32
+    print (str(b) +"F")
+tempc(a)
