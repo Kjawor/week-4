@@ -1,0 +1,9 @@
+def tempc(a):
+    b = (a* 1.8) + 32
+    return b
+print(tempc(20))
+
+def tempf(a):
+    b = (a - 32) * 0.5666
+    return b
+print(tempf(60))
