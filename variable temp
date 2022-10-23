@@ -1,0 +1,13 @@
+y = list(map(int, input("Enter multiple value: ").split()))
+
+def tempc(y):
+    for i in y:
+        print(i, "C")
+
+    print(max(y))
+    print(min(y))
+    mean = sum(y) / len(y)
+    print (mean)
+
+
+print(tempc(y))
