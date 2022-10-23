@@ -1,0 +1,13 @@
+import statistics
+
+list= [1,2,3,4,5,6]
+
+def tempc(list):
+    for i in list:
+        print(i, "C")
+
+    print(max(list))
+    print(min(list))
+    print(statistics.mean(list))
+
+print(tempc(list))
